@@ -17,15 +17,17 @@
 #container .position ul li.on {font-size: 18px; font-weight: 600; color: #172a4a;}
 #container .position ul li.on .line {height: 1px; width: 130px; background: #172a4a;}
 
+#container .bg_text {position: fixed; color: rgba(110, 128, 158, 0.2); font-weight: 900; font-size: 260px; margin: 10%; letter-spacing: -20px; text-align: center; width: 100%; z-index: 1;}
+
 #container .picture {position: absolute; top: 360px; width: 640px; height: 305px; background: #6e809e url(../images/img/picture.jpg) no-repeat center center; background-size: cover; z-index: 10; text-indent: -9999em;}
 #container .content_1 {width: 100%; height: 880px;}
 #container .content_1 .bg_blue {background: #b7c2d6;}
 
 #container .content_1 .wide {position: absolute; left: 400px; right: -100%; height: 880px;}
-#container .content_1 .wide .bg_text {color: rgba(110, 128, 158, 0.2); font-weight: 900; font-size: 280px;}
 
 
-#container .title {font-size: 48px; color: #212429; font-weight: 900;}
+
+#container .content_2 .title {font-size: 48px; color: #212429; font-weight: 900;}
 
 
 
