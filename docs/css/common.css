@@ -4,7 +4,7 @@
     font-family: NotoSans;
     font-style: normal;
     font-weight: 350;
-    src: url("/fonts/NotoSansKR-350.woff") format("woff");
+    src: url("./fonts/NotoSansKR-350.woff") format("woff");
 }
 
 /* Medium */
@@ -12,7 +12,7 @@
     font-family: NotoSans;
     font-style: normal;
     font-weight: 500;
-    src: url("/fonts/NotoSansKR-500.woff") format("woff");
+    src: url("./fonts/NotoSansKR-500.woff") format("woff");
 }
 
 /* Black */
@@ -20,7 +20,7 @@
     font-family: NotoSans;
     font-style: normal;
     font-weight: 900;
-    src: url("/fonts/NotoSansKR-900.woff") format("woff");
+    src: url("./fonts/NotoSansKR-900.woff") format("woff");
 }
 
 
