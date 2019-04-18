@@ -36,7 +36,7 @@
 
 #container .content_2 {position: relative; width: 100%; height: 1230px; margin-top: 140px; z-index: 2;}
 #container .content_2 .title {font-size: 48px; color: #212429; font-weight: 900;}
-#container .content_2 .skill {width: 880px; margin: 0 auto;}
+#container .content_2 .skill {width: 880px; margin: 0 auto; padding-left: 40px;}
 #container .content_2 .skill ul li {width: 320px; display: inline-block; margin-bottom: 100px;}
 #container .content_2 .skill ul li .icon {height: 80px; text-indent: -9999em;}
 #container .content_2 .skill ul li .icon.ps {background: url(../images/ico/ico_ps.png) no-repeat left center;}
