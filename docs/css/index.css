@@ -10,33 +10,44 @@
 #container {position: relative; max-width: 1600px; height: 100%; margin: 0 auto;}
 
 
-#container .position {position: absolute; left: 0; bottom: 100px; z-index: 10;}
-#container .position ul li {font-size: 18px; font-weight: 400; color: #b2c1d9; height: 35px;}
-#container .position ul li .line {height: 1px; width: 130px; background: #b2c1d9; float: left; margin: 10px 30px 0 0;}
+#container .content_1 .position {position: absolute; left: 0; bottom: 100px; z-index: 10;}
+#container .content_1 .position ul li {font-size: 18px; font-weight: 400; color: #b2c1d9; height: 35px;}
+#container .content_1 .position ul li .line {height: 1px; width: 130px; background: #b2c1d9; float: left; margin: 10px 30px 0 0;}
+#container .content_1 .position ul li.on {font-size: 18px; font-weight: 600; color: #172a4a;}
+#container .content_1 .position ul li.on .line {height: 1px; width: 130px; background: #172a4a;}
 
-#container .position ul li.on {font-size: 18px; font-weight: 600; color: #172a4a;}
-#container .position ul li.on .line {height: 1px; width: 130px; background: #172a4a;}
+#container .content_2 .position {position: absolute; left: 0; bottom: 100px; z-index: 10;}
+#container .content_2 .position ul li {font-size: 18px; font-weight: 400; color: #b2c1d9; height: 35px;}
+#container .content_2 .position ul li .line {height: 1px; width: 130px; background: #b2c1d9; float: left; margin: 10px 30px 0 0;}
+#container .content_2 .position ul li.on {font-size: 18px; font-weight: 600; color: #172a4a;}
+#container .content_2 .position ul li.on .line {height: 1px; width: 130px; background: #172a4a;}
+
+
 
 #container .bg_text {position: fixed; color: rgba(110, 128, 158, 0.2); font-weight: 900; font-size: 260px; margin: 5% 10%; letter-spacing: -20px; text-align: center; width: 1600px; z-index: 1;}
 
 #container .picture {position: absolute; top: 360px; width: 640px; height: 305px; background: #6e809e url(../images/img/picture.jpg) no-repeat center center; background-size: cover; z-index: 10; text-indent: -9999em;}
-#container .content_1 {width: 100%; height: 880px;}
+#container .content_1 {position: relative; width: 100%; height: 880px;}
 #container .content_1 .bg_blue {background: #b7c2d6;}
+
 
 #container .content_1 .wide {position: absolute; left: 400px; right: -100%; height: 880px;}
 #container .content_1 .wide .text {position: absolute; left: 320px; bottom: 200px; font-size: 70px; color: #284370; font-weight: 100;}
 
-
+#container .content_2 {position: relative; width: 100%; height: 900px; margin-top: 140px; z-index: 2;}
 #container .content_2 .title {font-size: 48px; color: #212429; font-weight: 900;}
-
-
-
-
-
-
-
-
-
+#container .content_2 .skill {width: 880px; margin: 0 auto;}
+#container .content_2 .skill ul li {width: 320px; display: inline-block;}
+#container .content_2 .skill ul li .icon {height: 80px; text-indent: -9999em;}
+#container .content_2 .skill ul li .icon.ps {background: url(../images/ico/ico_ps.png) no-repeat left center;}
+#container .content_2 .skill ul li .icon.ai {background: url(../images/ico/ico_ai.png) no-repeat left center;}
+#container .content_2 .skill ul li .icon.html {background: url(../images/ico/ico_html.png) no-repeat left center;}
+#container .content_2 .skill ul li .icon.css {background: url(../images/ico/ico_css.png) no-repeat left center;}
+#container .content_2 .skill ul li .icon.js {background: url(../images/ico/ico_js.png) no-repeat left center;}
+#container .content_2 .skill ul li .icon.jq {background: url(../images/ico/ico_jq.png) no-repeat left center;}
+#container .content_2 .skill ul li .name {font-size: 24px; color: #212429; margin: 30px 0;}
+#container .content_2 .skill ul li .progress {display: flex!important; background-color: #ddd; border-radius: 5px; margin: 18px 0 30px;}
+#container .content_2 .skill ul li .progress .progress_bar {background-color: #6e809e; height: 5px;}
 
 
 
