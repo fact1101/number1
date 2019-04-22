@@ -4,7 +4,7 @@
     font-family: NotoSans;
     font-style: normal;
     font-weight: 350;
-    src: url("./fonts/NotoSansKR-350.woff") format("woff");
+    src: url("../fonts/NotoSansKR-350.woff") format("woff");
 }
 
 /* Medium */
@@ -12,7 +12,7 @@
     font-family: NotoSans;
     font-style: normal;
     font-weight: 500;
-    src: url("./fonts/NotoSansKR-500.woff") format("woff");
+    src: url("../fonts/NotoSansKR-500.woff") format("woff");
 }
 
 /* Black */
@@ -20,7 +20,7 @@
     font-family: NotoSans;
     font-style: normal;
     font-weight: 900;
-    src: url("./fonts/NotoSansKR-900.woff") format("woff");
+    src: url("../fonts/NotoSansKR-900.woff") format("woff");
 }
 
 
@@ -47,7 +47,7 @@
 #header .header_white .logo {position: absolute; top: 39px; left: 50px;}
 
 #header .header_white .category {position: absolute; top: 0; left: 50%; transform: translateX(-50%); font-size: 18px; line-height: 100px; color: #465a7b; min-width: 800px;}
-#header .header_white .category ul li {display: inline-block; float: left; width: 160px; text-align: center; font-weight: 600;}
+#header .header_white .category ul li {display: inline-block; float: left; width: 160px; text-align: center; font-weight: 500;}
 #header .header_white .category ul li:hover {background-color: #ebeff5;}
 
 #header .header_white .btn_menu {display: block; float: right; width: 50px; height: 50px; margin-top: 30px; padding: 0; background: url(../images/ico/head_icon_menu.png) center center no-repeat; text-indent: -9999em;}
